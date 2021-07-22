@@ -1,0 +1,27 @@
+#game-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightpink;
+    width: 600px;
+    height: 400px;
+}
+
+#outer-ring {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    background: gold;
+    border-radius: 50%;
+}
+
+#ship {
+    width: 0;
+    height: 0;
+    border-style: solid;
+  
+    border-width: 0px 10px 30px 10px;
+    border-color: transparent transparent black transparent;
+}
